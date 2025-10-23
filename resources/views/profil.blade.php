@@ -5,7 +5,6 @@
         <h1 class="page-title">
             Profile Pengguna
         </h1>
-        <p class="subtitle">Detail informasi akun Anda.</p>
         <div class="card" style="padding: 30px;">
             <h3 style="color: var(--primary-color); margin-bottom: 25px; border-bottom: 2px solid #eee; padding-bottom: 10px; font-size: 1.5rem;">
                 Informasi Akun

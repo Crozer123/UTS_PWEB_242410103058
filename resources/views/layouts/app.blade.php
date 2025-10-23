@@ -9,7 +9,6 @@
 </head>
 
 <body class="@if(request()->routeIs('login')) dashboard-container login-layout @else dashboard-container @endif"> 
-
     @if(request()->routeIs('login'))
         @yield('content')
     @else
@@ -21,12 +20,10 @@
                 <div class="main-content">
                     @yield('content')
                 </div>
-            </div>
-            
-            @include('components.footer')
+            </div>       
+            <x-footer/>
         </div>
     @endif
-    
     <script src="{{ asset('js/script.js') }}"></script>
 </body>
 </html>

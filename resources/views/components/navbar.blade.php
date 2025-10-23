@@ -32,10 +32,6 @@
                 Profile
             </a>
         </li>
-
-        <li class="user-info-display">
-            <span>Welcome, {{ request('username') }}!</span>
-        </li>
         
     </ul>
 </nav>
